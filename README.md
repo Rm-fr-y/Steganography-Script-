@@ -9,6 +9,8 @@ sudo snap install stegseek \
 pip3 install Pillow \
 pip3 install stepic 
 
+If you are running version 2.0 or lower, please run the following command first in order to allow the script to run properly. sed -i 's/\r$//' stego_analyze.sh
+
 Once you have the prerequisites installed, to use the script do the following. \
 chmod +x stego_analyzer.sh -- makes the script an executable \
 ./stego_analyzer.sh target_file [wordlist] \
