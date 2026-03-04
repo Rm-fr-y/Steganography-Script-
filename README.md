@@ -7,7 +7,15 @@ Please run the following commands before running this script to ensure that you 
 sudo apt update
 sudo apt install -y steghide libimage-exiftool-perl binwalk foremost outguess binutils python3 python3-pip ruby-full build-essential
 sudo gem install zsteg
-sudo snap install stegseek
+wget https://github.com/RickdeJager/stegseek/releases/latest/download/stegseek_0.6-1.deb
+sudo apt install ./stegseek_0.6-1.deb
+sudo apt-get update && sudo apt-get install -y build-essential autoconf automake libtool git
+git clone https://github.com/resurrecting-open-source-projects/outguess.git
+cd outguess
+./autogen.sh
+./configure --with-generic-jconfig
+make CFLAGS="-O2 -fcommon -std=gnu99 -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -Wno-error=int-conversion -Wno-implicit-int -Wno-return-type"
+sudo make install
 pip3 install Pillow stepic
 ```
 If you are running version 2.0 or lower, please run the following command first in order to allow the script to run properly. 
