@@ -5,7 +5,7 @@ The tools that are tested include steghide, stegseek, exiftool, zsteg, binwalk, 
 Please run the following commands before running this script to ensure that you meet the requirements to run this script.
 ```
 sudo apt update
-sudo apt install -y steghide libimage-exiftool-perl binwalk foremost outguess binutils python3 python3-pip ruby-full build-essential
+sudo apt install -y steghide libimage-exiftool-perl binwalk foremost binutils python3 python3-pip ruby-full build-essential
 sudo gem install zsteg
 wget https://github.com/RickdeJager/stegseek/releases/latest/download/stegseek_0.6-1.deb
 sudo apt install ./stegseek_0.6-1.deb
