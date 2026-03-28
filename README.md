@@ -35,7 +35,7 @@ chmod +x stego_analyzer.sh # makes the script an executable
 ./stego_analyzer.sh target_file [wordlist]
 ```
 The wordlist is for password brute forcing. It is recommended to use rockyou.txt
-Once the script is run you must specify if you want to run brute-forcing or not. Note: Brute-force on Outguess is time intensive, therefore use a short wordlist when using Outguess. \
+Once the script is run you must specify if you want to run brute-forcing or not. Note: Brute-force on Outguess is time intensive, therefore use a short wordlist when using Outguess.
 
 You may change the order in which the script is run. \
 Syntax: toolname, toolname2, etc.
