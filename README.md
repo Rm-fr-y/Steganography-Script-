@@ -2,7 +2,8 @@
 This short and simple script checks a file against multiple steganography tools.
 The tools that are tested include steghide, stegseek, exiftool, zsteg, binwalk, foremost, outguess, strings, and stepic. This script is designed to work on a Debian or Ubuntu based Linux machine. 
 
-<img width="2876" height="1466" alt="Script Running Image" src="https://github.com/user-attachments/assets/35bbed3e-3a5a-435d-989f-0a8bdfda9b57" />
+<img width="2879" height="1447" alt="Screenshot 2026-03-28 002819" src="https://github.com/user-attachments/assets/5c81dc1c-e580-4ccb-9258-d57e1038994e" />
+
 
 Please run the following commands before running this script to ensure that you meet the requirements to run this script.
 ```
