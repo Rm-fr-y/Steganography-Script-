@@ -7,7 +7,7 @@ The tools that are tested include steghide, stegseek, exiftool, zsteg, binwalk, 
 Please run the following commands before running this script to ensure that you meet the requirements to run this script.
 ```
 sudo apt update
-sudo apt install -y build-essential autoconf automake libtool git wget binutils binwalk foremost libimage-exiftool-perl python3 python3-pip ruby-full steghide
+sudo apt install -y build-essential autoconf automake libtool git wget binutils binwalk foremost libimage-exiftool-perl python3 python3-pip ruby-full steghide pipx
 sudo gem install zsteg
 pip3 install Pillow
 pip3 install stepic
